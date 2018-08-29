@@ -1,6 +1,8 @@
 @font-face{
 	font-family: master_of_break;
+	font-family:KaushanScript-Regular;
 	src: url(../fonts/master_of_break.otf);
+	src:url(../fonts/KaushanScript-Regular.otf);
 
 	
 }
@@ -8,13 +10,17 @@
 body{
 	
 	background-color: #381610;
+	margin-top: 0;
+	font-family:Segoe UI;
 }
 
 header{
 	
 	background-color: #72272e;
-/*	position:fixed;*/
-/*	z-index: 18;*/
+/*
+	position:fixed;
+	z-index: 18;
+*/
 	width:100%;
 	 box-shadow: inset 1px 1px 10px #000;
 		
@@ -22,9 +28,9 @@ header{
 }
 header img{
 	
-	padding: 3px 0;
+/*	padding: 2px 0;*/
 	margin-top: 5px;
-	max-height: 77px;
+	max-height: 64px;
 }
 
 
@@ -124,8 +130,14 @@ text-align: center;
 	height: 800px;
 	
 	
-			
+	
+		
 }
+
+
+
+
+
 
 .btn-naranja{
 	background-color: #E2717E;
@@ -152,8 +164,10 @@ text-align: center;
 #sec-pie h2{
 	font-size: 40px;
 	font-weight: 800;
-	padding: 2px;
+	padding: 2px 0;
 	color: #72272e;
+	line-height:40px;	
+	font-family: KaushanScript-Regular;
 	
 }
 
@@ -162,6 +176,7 @@ text-align: center;
 	padding: 10px;
 	text-align: center;	
 	font-size: 14px;
+	
 	
 }
 
