@@ -1,8 +1,11 @@
 @font-face{
 	font-family: master_of_break;
 	font-family:KaushanScript-Regular;
-	src: url(../fonts/master_of_break.otf);
+	
+	font-family: Dancing Script OT;
+	src:url(../fonts/master_of_break.otf);
 	src:url(../fonts/KaushanScript-Regular.otf);
+	src:url(../fonts/DancingScript-Regular.otf);
 
 	
 }
@@ -283,5 +286,131 @@ min-height: 400px;
 	color: #fff;
 	padding: 10px;
 }
+
+
+
+/*Estilos Para Página Quienes Somos*/
+
+
+
+
+
+#carousel-about h1{
+	font-family: Dancing Script OT;
+	font-size: 100px;
+	color: #ffffbd;
+	
+	
+	
+}
+
+.marquito{
+	
+	border: solid 4px #e2717e;
+}
+
+
+#sec-historia{
+	
+	
+	background-color: #ffebe5;
+	text-align: center;
+	height: 400px;
+	padding: 10px 0;
+	
+	
+	
+}
+
+
+#sec-historia h1{
+	
+	
+/*	font-family:Dancing Script OT;*/
+	font-size: 60px;	
+	color: #72272d;
+	
+	
+	
+}
+
+#sec-historia .bar-rosa{
+	
+	margin-top: 2px;
+	height: 2px;
+	width: 250px;
+}
+
+.espaciado{
+	
+padding: 30px;
+}
+
+
+#sec-mision{
+	
+	background-color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+#sec-mision .bar-rosa{
+	
+	margin-top: 2px;
+	height: 2px;
+	width: 250px;
+}
+
+#sec-mision h1{
+	
+	font-size: 60px;	
+	color: #72272d;
+	
+}
+
+
+/*SECCION VISION*/
+
+
+#sec-vision{
+	
+	background-color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+#sec-vision .bar-rosa{
+	
+	margin-top: 2px;
+	height: 2px;
+	width: 250px;
+}
+
+#sec-vision h1{
+	
+	font-size: 60px;	
+	color: #72272d;
+	
+}
+
+
+
+
+/*PROVISIONAL*/
+h3{
+	
+	color: #fff;
+	
+	font-weight: 700;
+	font-size: 30px;
+	
+}
+
+
+
+
+
 
 
