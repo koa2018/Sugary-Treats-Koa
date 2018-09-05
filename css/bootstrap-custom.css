@@ -34,7 +34,7 @@ a{
 }
 
 .dropdown-menu{
-	background-color:#212121;
+	background-color:#e2717e;
 	border:0;
 }
 .dropdown-menu .dropdown-item{
@@ -51,17 +51,18 @@ a{
 }
 
 .navbar-light .navbar-toggler{
-	background-color: transparent;
-	border:1px solid #000;
+	background-color: #e2717e;
+
 }
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus
 {
-    background-color: transparent;
+    background-color: #ffffbd;
 	cursor:pointer;
 }
 .navbar-light .navbar-toggler-icon {
     background-color: transparent;
+	
 }
 
 .navbar-light .navbar-toggle:hover .icon-bar {
