@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @font-face{
-	font-family: master_of_break;
+	
 	font-family: Dancing Script OT;
-	src:url(../fonts/master_of_break.otf);
 	src:url(../fonts/DancingScript-Regular.otf);
 
 	
 }
 
 body{
-	
+	font-family: 'Roboto';
 	background-color: #381610;
 	margin-top: 0;
-	font-family:Segoe UI;
 	font-size:14px; 
 }
 
@@ -190,10 +189,41 @@ text-align: center;
 footer{
 	background-color: #72272E;
 	text-align: center;
-	padding: 5px 0;
+	padding: 25px 0;
 	
 }
+.redes{
+	margin: 15px 0;
+}
 
+.redes li{
+	display: inline-block;
+}
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.redes a:hover{
+	background-color: #fff;
+	color: #252525;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color: #f54f15;
+	font-weight: 400;
+}
+
+footer p a:hover{
+	color: #f45f15;
+}
 
 
 
