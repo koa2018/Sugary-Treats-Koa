@@ -411,6 +411,32 @@ padding: 30px;
 	
 }
 
+/*ESTILOS PARA BREADCRUMB*/
+
+#sec-breadcrumb{
+	
+/*	padding: 5px;*/
+	margin-bottom: 0;
+	background-color:#ede9e8;	
+}
+
+#sec-breadcrumb .breadcrumb{
+	
+	
+	background-color:#ede9e8;
+	margin-bottom: 0;
+	
+}
+
+#sec-breadcrumb a{
+	
+	color:#72272d;
+}
+
+
+
+
+
 
 /*SECCION VISION*/
 
