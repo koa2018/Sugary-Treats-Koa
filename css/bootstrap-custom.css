@@ -1,3 +1,8 @@
+
+
+
+
+
 a{
 	outline:0 !important;	
 }
@@ -77,7 +82,7 @@ a{
  	color:#1F81BF;
 }
 .navbar-light .navbar-brand img{
-	max-width: 150px;
+	max-width: 100px;
 }
 
 
@@ -94,6 +99,7 @@ a{
 	left: 50%;
 	bottom: inherit;
 	transform: translate(-50%,-50%);
+	font-family: 
 }
 .caption-center{
 	/*display: table-cell;
