@@ -884,11 +884,211 @@ h3{
 
 	}
 	
+}
+
+/*Media query para tienda xs*/
+
+@media (max-width:480px) {
 	
+	#carousel-shop h2{
+		
+		font-size: 12px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
 	
+	#carousel-shop .cuadro-marron{
+		height: 100px;
+		
+	}
 	
+	#carousel-shop .btn-shop{
+		padding: 2px;
+	}
+	
+	#carousel-shop h1{
+	font-size: 50px;
 	
 }
+
+	#carousel-cookie h2{
+		
+		font-size: 12px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
+	
+	#carousel-cookie .cuadro-marron{
+		height: 100px;
+		
+	}
+	
+	#carousel-cookie .btn-shop{
+		padding: 2px;
+	}
+	
+	#carousel-cookie h1{
+	font-size: 50px;
+	
+}
+	#carousel-cupcake h2{
+		
+		font-size: 12px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
+	
+	#carousel-cupcake .cuadro-marron{
+		height: 100px;
+		
+	}
+	
+	#carousel-cupcake .btn-shop{
+		padding: 2px;
+	}
+	
+	#carousel-cupcake h1{
+	font-size: 50px;
+	
+}
+
+
+}
+
+/*Media query para tienda sm*/
+@media (min-width:768px){
+	
+	#carousel-shop h2{
+		
+		font-size: 20px;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	
+	#carousel-shop .cuadro-marron{
+		height: 250px;
+		
+	}
+	
+	#carousel-shop .btn-shop{
+		padding: 2px;
+	}
+	
+	#carousel-shop h1{
+	font-size: 60px;
+	
+}
+
+	#carousel-cookie h2{
+		
+		font-size: 20px;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	
+	#carousel-cookie .cuadro-marron{
+		height: 250px;
+		
+	}
+	
+	#carousel-cookie .btn-shop{
+		padding: 2px;
+	}
+	
+	#carousel-cookie h1{
+	font-size: 60px;
+	
+}
+	#carousel-cupcake h2{
+		
+		font-size: 20px;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	
+	#carousel-cupcake .cuadro-marron{
+		height: 250px;
+		
+	}
+	
+	#carousel-cupcake .btn-shop{
+		padding: 2px;
+	}
+	
+	#carousel-cupcake h1{
+	font-size: 60px;
+	
+}
+
+	
+}
+
+/*media query para tienda lg*/
+
+@media(min-width:1200px){
+	
+	#carousel-shop h1{
+		
+		font-size: 100px;
+		text-align: center;
+	
+}
+	#carousel-shop h2{
+		
+		font-size: 60px;
+		text-align: center;
+	}
+	
+	#carousel-shop .cuadro-marron{
+		height: 100%;
+	}
+	
+	
+	#carousel-cookie h1{
+		
+		font-size: 100px;
+		text-align: center;
+	
+}
+	#carousel-cookie h2{
+		
+		font-size: 60px;
+		text-align: center;
+	}
+	
+	#carousel-cookie .cuadro-marron{
+		height: 100%;
+	}
+	
+	#carousel-cupcake h1{
+		
+		font-size: 100px;
+		text-align: center;
+	
+}
+	#carousel-cupcake h2{
+		
+		font-size: 60px;
+		text-align: center;
+	}
+	
+	#carousel-cupcake .cuadro-marron{
+		height: 100%;
+	}
+}
+	
+	/*Media query para sección tambien de la tienda xs*/
+
+@media (max-width:480px) {
+	
+	#shop-tambien h2{
+		
+		font-size: 50px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
+}
+
 
 
 
