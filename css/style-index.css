@@ -612,6 +612,8 @@ h3{
 }
 
 /*Sec-Productos*/
+
+
 #producto {
 	padding: 40px 0px;
 	background-color: #fff;
@@ -643,6 +645,117 @@ h3{
 	text-align: center;
 }
 
+/*Media queries pagina de productos*/
+@media (max-width:480px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+}
+	
+@media (max-width:480px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+@media (max-width:768px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+
+@media (max-width:1020px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
+@media (max-width:1200px){
+	#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#pasteles h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+#galletas h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}
+	#cupcakes h4 p{
+		font-size: 25px;
+		text-align: center;
+			
+
+	}}
 /*MEDIA QUERY PARA QUIENES SOMOS*/
 @media (max-width:480px) {
 	
