@@ -21,12 +21,17 @@ header{
 	position:fixed;
 	z-index: 18;
 */
-/*	width:100%;*/
+	width:100%;
 	 box-shadow: inset 1px 1px 10px #000;
 		
 
 }
-
+header img{
+	
+/*	padding: 2px 0;*/
+	margin-top: 5px;
+	max-height: 64px;
+}
 
 
 #sec-banner{
@@ -66,14 +71,12 @@ header{
 
 
 
-/*
 header ul li{
 	color:#fff;
 	display: inline-block;
 	margin-right:20px;
 text-align: center;
 }
-*/
 
 #sec-productitos{
 /*background-color: #fff;*/
@@ -124,7 +127,7 @@ text-align: center;
 	text-align:center;
 	color: #FFFFFF;
 	padding: 70px 0px;
-/*	height: 800px;*/
+	height: 800px;
 	
 
 		
@@ -158,10 +161,8 @@ text-align: center;
 	background-color:rgba(250,250,250,0.80);
 	text-align: center;
 	padding: 30px 0;
-/*
 	height:650px;
 	width: 250px;
-*/
 	margin-bottom: 30px;
 	border-radius: 10px;
 
@@ -183,13 +184,12 @@ text-align: center;
 .nombre{
 	color: #fff;
 	font-weight: 600;
-	margin-bottom: 5px;
 }
 
 footer{
 	background-color: #72272E;
 	text-align: center;
-	padding: 10px 0;
+	padding: 25px 0;
 	
 }
 .redes{
@@ -198,7 +198,6 @@ footer{
 
 .redes li{
 	display: inline-block;
-	font-size: 25px;
 }
 .redes a{
 	width: 60px;
@@ -248,15 +247,6 @@ footer p a:hover{
 	
 	font-size: 20px;
 	
-	
-}
-
-#carousel-repost h1{
-	
-	
-	font-family: Dancing Script OT;
-	color:#ffffbd;
-	font-size: 90px;
 }
 
 
@@ -368,8 +358,6 @@ min-height: 400px;
 	font-size: 60px;	
 	color: #72272d;
 	
-	
-	
 }
 
 #sec-historia .bar-rosa{
@@ -413,32 +401,6 @@ padding: 30px;
 	
 }
 
-/*ESTILOS PARA BREADCRUMB*/
-
-#sec-breadcrumb{
-	
-/*	padding: 5px;*/
-	margin-bottom: 0;
-	background-color:#ede9e8;	
-}
-
-#sec-breadcrumb .breadcrumb{
-	
-	
-	background-color:#ede9e8;
-	margin-bottom: 0;
-	
-}
-
-#sec-breadcrumb a{
-	
-	color:#72272d;
-}
-
-
-
-
-
 
 /*SECCION VISION*/
 
@@ -479,311 +441,141 @@ h3{
 }
 
 
-/*ESTILOS PARA PAGINA DE VENTAS*/
-
-
-#contenido{
-	height: 450px;
-	background-color: #faf6c0;
-	}
-
-
-
-.galeria-list{
-	width: 100%;
-	float: right;
-	margin: 50px 0 0 0;
-	color: #371711;
-	font-size: 15px;
+/*Página productos*/
+#producto {
+	padding: 40px 0px;
+	background-color: #fff;
 }
 
-ul{
-	list-style-type: none;
-}
-
-.galeria-menu{
-	width: 86.76%;
-	float: right;
-	margin: 1.9em 0 0 0;
-	padding: 0 0 9.5em 0;
-}
-
-.galeria-menu li{
-	width: 100%;
-	height: 4.55em;
-	float: right;
-	background-color: transparent;
-	background-position-x: right;
-	background-position-y: bottom;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-image: url(../img/linea-01.jpg);
-	background-size: auto auto;
-	background-origin: padding-box;
-	background-clip: border-box;
-}
-
-.galeria-menu li a{
-	width: 100%;
-	height: 4.5em;
-	float: left;
-	text-decoration: none;
-}
-
-.galeria-menu .active{
-	background-color: transparent;
-	background-position-x: right;
-	background-position-y: top;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-image: url(../img/menorq-01.png);
-	background-size: auto;
-	background-origin: padding-box;
-	background-clip: border-box;
-	float: right;
-}
-
-.galeria-menu span{
-	width: 100%;
-	float: left;
-	color: #371711;
-}
-
-
-.galeria-menu img{
-	margin: 0.7em 0 0 0;
-}
-
-#contenido .padre{
-	position: relative;
-}
-
-#contenido .hijo{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	background-color: rgba(55,23,17,0.70);
-	padding: 10px;
+.productos{
 	color: #fff;
-}
-#contenido .hijo h3{
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
 }
 
-#contenido .hijo p{
+.tit-ban{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+#banner-galletas h4{
+	text-align: center;
+}
+
+.precio{
+	text-align: center;
 	font-size: 14px;
 }
 
-.btn-shop{
-	background-color:#72272e;
+#pasteles{
+	text-align: center;
+}
+
+/*Página shop*/
+#carousel-shop h1{
+	font-family: Dancing Script OT;
+	font-size: 100px;
+	color: #ffffbd;
+}
+#carousel-shop h2{
+	font-size: 60px;	
+	color: #ffffbd;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.cuadro-marron{
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(55,23,17,0.70);
+	padding: 10px 15px;
 	color: #fff;
-	border-radius: 3px;
+	text-align: justify;
+	font-size: 18px;
+	
+}
+
+.btn-shop{
+	background-color:#e2717e;
+	color: #fff;
 	border: 0;
 	margin: 0;
 	padding: 7px;
+	font-style: normal;
 }
 
-#shop-form{
-	width: 100%;
-	float: left;
-	margin: 50px 0 0 0;
-	font-size: 15px;
+#carousel-cookie h1{
+	font-family: Dancing Script OT;
+	font-size: 100px;
+	color: #ffffbd;
 }
-
-.form-group{
-	color: #371711;
-}
-
-#shop-form p a{
-	color: #371711;
-}
-
-#map{
-	width:auto;
-	min-height: 300px;
-	margin:20px 40px 20px 40px;
-}
-
-#sec-form{
-	color:#E2717E;
-	padding: 20px;
-	margin: 10px;
+#carousel-cookie h2{
+	font-size: 60px;	
+	color: #ffffbd;
 	text-align: center;
-	
+	padding-bottom: 10px;
 }
 
-.text-form{
-	color: #E2717E;
-	
+#carousel-cupcake h1{
+	font-family: Dancing Script OT;
+	font-size: 100px;
+	color: #ffffbd;
+}
+#carousel-cupcake h2{
+	font-size: 60px;	
+	color: #ffffbd;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
+/*Estilo para ventas*/
 
-.terminos{
-	font-size: 20px;
-	font-weight: 600;
-	
+.contenido{
+	background-color: #faf6c0;
+	color: #381610;
+	}
+
+#shop h2{
+	font-family: Dancing Script OT;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #72272E;
+	font-size: 40px;
+	font-weight: 500;
 }
 
-
-/*MEDIA QUERY PARA INDEX*/
-@media (max-width:480px) and (max-width:648px){
-	
-
-	
-	
-	#carousel-repost h1{
-		
-		font-size: 35px;
-		text-align: center;
-				
-
-	}
-	
-	
-	#carousel-repost p{
-		
-		display: none;
-		
-	}
-	
-
+#shop p{
+	font-style: italic;
+	text-align: center;
 }
 
-
-/*MEDIA QUERY PARA QUIENES SOMOS*/
-@media (max-width:480px) {
-	
-
-	
-	
-	#carousel-about h1{
-		
-		font-size: 25px;
-		text-align: center;
-			
-
-	}
-	
-	
-	#carousel-about .marquito{
-		
-		border: 2px solid #e2717e;
-		height: 40px;
-
-	}
-	
-	
-	
-	#carousel-about .carousel-indicators li {
-    border-radius: 5px;
-    width: 5px;
-    height: 5px;
-    background-color:#4E4C4C;
-	
-	
-	}
-	
-	#carousel-about .carousel .active{
-		
-		background-color: #e2717e;
-	}
-	
-
+#shop h3{
+	font-family: Dancing Script OT;
+	text-align: center;
+	padding-top: 5px;
+	/*padding-bottom: 20px;*/
+	color: #72272E;
+	font-size: 25px;
+	font-weight: 500;
 }
 
-
-
-@media (min-width:768px){
-	
-
-		#carousel-about h1{
-		
-		font-size: 50px;
-		text-align: center;
-			
-
-	}
-	
-	
-	#carousel-about .marquito{
-		
-		border: 5px solid #e2717e;
-		height:100px;
-
-	}
-	
-	
-	
-	
+.bar-shop{
+	background-color: #e2717e;
+	background-size: cover;
+	height:2px;
+	margin-top: -2px;
+	margin-bottom: 20px;
 }
 
-@media(min-width:1200px){
-	
-	#carousel-about h1{
-		
-		font-size: 100px;
-		text-align: center;
-	
+#shop h4{
+	font-family: Helvetica;
+	text-align: center;
+	padding-top: 5px;
+	/*padding-bottom: 20px;*/
+	color: #72272E;
+	font-size: 25px;
+	font-weight: 700;
 }
-	
-		#carousel-about .marquito{
-		
-		border: 4px solid #e2717e;
-		height:150px;
-
-	}
-	
-	
-	
-	
-}
-
-@media(max-width:320px){
-	
-	#carousel-about h1{
-		
-		font-size: 18px;
-		text-align: center;
-	
-}
-	
-		#carousel-about .marquito{
-		
-		border: 2px solid #e2717e;
-		height:30px;
-
-	}
-	
-	
-	
-	
-}
-
-
-@media(max-width:648px){
-	
-		#carousel-about h1{
-		
-		font-size: 25px;
-		text-align: center;
-			
-
-	}
-	
-	
-	#carousel-about .marquito{
-		
-		border: 2px solid #e2717e;
-		height:40px;
-
-	}
-	
-	
-	
-	
-	
-}
-
-
-
